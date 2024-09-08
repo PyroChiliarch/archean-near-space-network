@@ -472,6 +472,13 @@ timer interval $nsn_update_speed
 		; Clear transmit channel
 		output_text($nsn_beacon_alias_4 , 1, "")
 		
+		; Also clear default transmit channel on position beacons
+		; Stops smart people finding us ;)
+		output_text($nsn_beacon_alias_0 , 1, "")
+		output_text($nsn_beacon_alias_1 , 1, "")
+		output_text($nsn_beacon_alias_2 , 1, "")
+		output_text($nsn_beacon_alias_3 , 1, "")
+		
 	
 	else
 		; Stealth mode not enable
