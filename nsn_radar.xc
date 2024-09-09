@@ -60,6 +60,7 @@ function @nsn_radar_scan_for_transponders($ant_alias:text)
 		; Store in global array
 		$nsn_radar_transponders.$nsn_radar_cur_scan = $data
 		
+		
 		if $nsn_radar_debug
 			print($data)
 	
