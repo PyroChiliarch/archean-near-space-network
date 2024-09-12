@@ -54,7 +54,7 @@ init
 			$beacon_2 = ""
 			$beacon_2.x = $x
 			$beacon_2.y = $y
-			$beacon_2.z = 0
+			$beacon_2.z = $start_pos.z
 			print("Beacon 2: ", $beacon_2)
 			
 			
